@@ -35,7 +35,7 @@ public class Main {
             System.out.println("Ты свою посылку не получишь ");
         }
         // Задание 5
-        int monthNumber = 5;
+        int monthNumber = 7;
         if (monthNumber == 12) {
             System.out.println("На дворе зима, месяц декабрь");
         } else if (monthNumber == 1) {
