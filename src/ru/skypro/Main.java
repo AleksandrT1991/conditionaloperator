@@ -35,33 +35,30 @@ public class Main {
             System.out.println("Ты свою посылку не получишь ");
         }
         // Задание 5
-        int monthNumber = 4;
-        if (monthNumber == 12) {
-            System.out.println("На дворе зима, месяц декабрь");
-        } else if (monthNumber == 1) {
-            System.out.println("На дворе зима, месяц январь");
-        } else if (monthNumber == 2) {
-            System.out.println("На дворе зима, месяц февраль");
-        } else if (monthNumber == 3) {
-            System.out.println("На дворе весна, март");
-        } else if (monthNumber == 4) {
-            System.out.println("На дворе весна, апрель");
-        } else if (monthNumber == 5) {
-            System.out.println("На дворе весна, месяц май");
-        } else if (monthNumber == 6) {
-                System.out.println("На дворе лето, месяц июнь");
-        } else if (monthNumber == 7) {
-            System.out.println("На дворе лето, месяц июль");
-        } else if (monthNumber == 8) {
-            System.out.println("На дворе лето, месяц август");
-        } else if (monthNumber == 9) {
-                    System.out.println("На дворе осень, месяц сентябрь");
-        } else if (monthNumber == 10) {
-            System.out.println("На дворе осень, месяц октябрь");
-        } else if (monthNumber == 11) {
-            System.out.println("На дворе осень, месяц ноябрь");
-        } else {
-            System.out.println("Иди учись! Нет такого месяца и тем более времени года");
+        int monthNumber = 13;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("На дворе зима ");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("На дворе весна ");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("На дворе лето ");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("На дворе осень ");
+                break;
+            default:
+                System.out.println("Такого времени года не существует ");
         }
     }
 }
