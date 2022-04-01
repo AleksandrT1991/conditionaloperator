@@ -35,15 +35,31 @@ public class Main {
             System.out.println("Ты свою посылку не получишь ");
         }
         // Задание 5
-        int monthNumber = 13;
-        if (monthNumber ==12 || monthNumber == 1 || monthNumber == 2) {
-            System.out.println("На дворе зима");
-        } else if (monthNumber ==3 || monthNumber == 4 || monthNumber == 5) {
-            System.out.println("На дворе весна");
-        } else if (monthNumber ==6 || monthNumber == 7 || monthNumber == 8) {
-            System.out.println("За окном лето");
-        } else if (monthNumber ==9 || monthNumber == 10 || monthNumber == 11) {
-            System.out.println("За окном осень");
+        int monthNumber = 5;
+        if (monthNumber == 12) {
+            System.out.println("На дворе зима, месяц декабрь");
+        } else if (monthNumber == 1) {
+            System.out.println("На дворе зима, месяц январь");
+        } else if (monthNumber == 2) {
+            System.out.println("На дворе зима, месяц февраль");
+        } else if (monthNumber == 3) {
+            System.out.println("На дворе весна, март");
+        } else if (monthNumber == 4) {
+            System.out.println("На дворе весна, апрель");
+        } else if (monthNumber == 5) {
+            System.out.println("На дворе весна, месяц май");
+        } else if (monthNumber == 6) {
+                System.out.println("На дворе лето, месяц июнь");
+        } else if (monthNumber == 7) {
+            System.out.println("На дворе лето, месяц июль");
+        } else if (monthNumber == 8) {
+            System.out.println("На дворе лето, месяц август");
+        } else if (monthNumber == 9) {
+                    System.out.println("На дворе осень, месяц сентябрь");
+        } else if (monthNumber == 10) {
+            System.out.println("На дворе осень, месяц октябрь");
+        } else if (monthNumber == 11) {
+            System.out.println("На дворе осень, месяц ноябрь");
         } else {
             System.out.println("Иди учись! Нет такого месяца и тем более времени года");
         }
